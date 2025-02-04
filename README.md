@@ -45,6 +45,15 @@ Unity를 활용해 **간단한 창작물을 실시간으로 제작하고 공유*
 
 <br>
 
+### 초기 화면
+<img src="Assets/Readme/초기화면.png" alt="초기화면" width="400">
+
+### 플레이 화면
+<img src="Assets/Readme/플레이%20화면.png" alt="플레이화면" width="400">
+
+<br>
+
+
 ## 🤝 기여 방법  
 1. 프로젝트를 포크 후 새로운 브랜치를 생성합니다.  
    ```bash
