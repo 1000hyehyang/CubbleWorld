@@ -52,21 +52,3 @@ Unity를 활용해 **간단한 창작물을 실시간으로 제작하고 공유*
 <img src="Assets/Readme/플레이%20화면.png" alt="플레이화면" width="400">
 
 <br>
-
-
-## 🤝 기여 방법  
-1. 프로젝트를 포크 후 새로운 브랜치를 생성합니다.  
-   ```bash
-   git checkout -b feature/새로운기능
-   ```  
-2. 변경 사항을 커밋하고 푸시합니다.  
-   ```bash
-   git commit -m "기능 추가: 설명 작성"
-   git push origin feature/새로운기능
-   ```  
-3. Pull Request(PR)를 생성하여 리뷰를 요청합니다.  
-
-<br>
-
-## 📄 라이선스  
-이 프로젝트는 **MIT 라이선스**를 따릅니다. 자세한 내용은 `LICENSE` 파일을 참고하세요.  
