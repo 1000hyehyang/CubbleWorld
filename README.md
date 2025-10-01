@@ -1,22 +1,21 @@
-# 🟨 CubbleWorld
+# CubbleWorld 🎲
 
-## 📌 프로젝트 개요  
-Unity를 활용해 **간단한 창작물을 실시간으로 제작하고 공유**할 수 있는 미니 마인 큐브 크래프트입니다. 이 프로젝트는 UI 심화 기능부터 네트워킹, 직렬화 등 다양한 기능을 구현하며, Unity 개발 환경에 대한 이해도를 높이기 위해 설계되었습니다.  
+### 프로젝트 개요  
+CubbleWorld는 Unity 기반의 미니 큐브 크래프트 프로젝트로, 사용자가 간단한 창작물을 실시간 제작·공유할 수 있도록 설계되었습니다. UI 심화, 데이터 직렬화, 멀티플레이 네트워킹, 에디터 확장까지 Unity 개발 전반을 아우르는 XREAL 6기 데브 학습용 레퍼런스 프로젝트입니다.
 
 <br>
 
 ## 🛠️ 구현 기능  
 
-### **1. Unity UI 심화 기능**
-- 레벨 에디터 기능 설계  
-- 공장 패턴(Factory Pattern)과 **Prefab 카탈로그 UI**  
-- UI 레이아웃 구조 최적화 (`min/preferred`, `ExecuteAlways`)  
-- **RenderTexture**와 **Shader**를 활용한 실시간 렌더링 효과  
-- TextMeshPro(TMP) 및 캔버스 최적화  
+### **1. UI & 워크플로 아키텍처**
+- Factory Pattern + Prefab 카탈로그: 오브젝트 생성 구조를 유연하게 추상화
+- 실시간 블록 미리보기: RenderTexture + Shader 조합으로 에디터 내 즉시 피드백
+- Editor 전용 확장: MenuItem, CustomEditor, PropertyDrawer 활용
 
-### **2. 직렬화(Serialization) 기능**
+
+### **2. 데이터 직렬화**
 - **동적 데이터**와 **정적 데이터**의 관리 구조  
-- **ScriptableObject(SO)**를 활용한 데이터 관리  
+- ScriptableObject를 활용한 데이터 관리  
 - SO List 패턴 구현 및 **Prefab과의 연동**  
 - **JSON**을 통한 데이터 직렬화 및 입출력(IO) 기능  
 
@@ -36,12 +35,10 @@ Unity를 활용해 **간단한 창작물을 실시간으로 제작하고 공유*
 <br>
 
 ## 💡 사용 기술 스택
-- **Unity** (최신 버전 권장)  
-- **Photon Fusion** (네트워킹)  
-- **C#** (Unity 스크립팅)  
-- **TextMeshPro(TMP)**  
-- **Shader Graph** 및 **RenderTexture**  
-- **JSON** 직렬화 및 파일 IO  
+- **Unity 2022.3 LTS**  
+- **Photon Fusion**  
+- **C#**    
+- **Shader Graph**  
 
 <br>
 
